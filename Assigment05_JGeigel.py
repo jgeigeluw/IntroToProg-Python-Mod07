@@ -8,6 +8,7 @@
 # RRoot,1.1.2030,Created started script
 # JGeigel, 5.12.2023, Added code to complete assignment 5
 # JGeigel, 5.15.2023, Added options to add more tasks and save data before exiting
+# JGeigel, 5.16.2023, Deleted redundant print() statements in option 2, and added confirmation before exiting program.
 # ------------------------------------------------------------------------ #
 
 # -- Data -- #
@@ -58,9 +59,7 @@ while (True):
             strTask = input("Task: ")
             strPriority = input("Priority: ")
             lstTable.append({"Task":strTask,"Priority":strPriority})    #Append new input to the list of tasks.
-            for row in lstTable:
-                print (row["Task"] + ' | ' + row["Priority"])           #Print current data in list of tasks and priorities.
-            print()
+            print(strTask + " task added!")
             strChoice = input("Add more tasks? ('y/n'): ")           #Let the user choose to add more tasks if needed.
             if strChoice.lower()== 'y':
                 continue
@@ -97,8 +96,10 @@ while (True):
                 objFile.write(str(row["Task"])+','+str(row["Priority"]+'\n')) #Write tasks and priorities to file.
             objFile.close()                             #Close file object.
             print("Data saved!")
+            input("\n" + "Press enter to exit program.")
             break
         elif sav == "n":                #Exit program if user chooses not to save data.
+            input("\n" + "Press enter to exit program.")
             break
         else:
             print("Please enter 'y' or 'n'")
