@@ -1,5 +1,0 @@
-read chapter,high
-play Civilization,low
-cook,high
-take a nap,low
-eat hot chip,high
