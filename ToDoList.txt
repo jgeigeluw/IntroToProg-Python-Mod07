@@ -3,3 +3,5 @@ play Civilization,low
 take a nap,low
 eat hot chip,high
 go for a walk,low
+Cook dinner,high
+Run,high
