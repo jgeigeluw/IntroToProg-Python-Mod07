@@ -1,11 +1,11 @@
-# Module 07 Website
----
 Name: Joseph Géigel
 Date: May 31, 2023
 Course: Foundations of Programming: Python
 Assignment: 07
-GitHub URL: 
-#Working with Binary Files in Python: Pickling
+GitHub URL:
+
+# Working with Binary Files in Python: Pickling
+
 Introduction
 This paper introduces two Python concepts: error-handling using try-except statements, and the concept of pickling in the context of working with binary files. Previously we have discussed working with text files in Python by using a variety of methods, but this time we work with binary data. Text files store data, like strings or characters, while binary files can contain more complex data, such as executable files, images, audio, and more. The process of pickling and unpickling refers to the transformation of objects into byte streams, and vice versa. This paper will demonstrate that process by pickling and unpickling the data from the To-Do List created in the previous assignment.
 Pickling and Unpickling
