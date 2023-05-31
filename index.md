@@ -123,11 +123,17 @@ In this paper we explored the concepts of serialization and deserialization in P
 
 ## References
 Arne Hjelle, G. ((n.d.)). Python import: Advanced Techniques and Tips. Retrieved from Real Python: https://realpython.com/python-import/#modules
+
 Dawson, M. (2010). Python Programming for the Absolute Beginner (Third Edition ed.). Boston, MA, United States of America: Course Technology PTR.
+
 GeeksForGeeks. (2018, November 13). Understanding Python Pickling. Retrieved from GeeksForGeeks: https://www.geeksforgeeks.org/understanding-python-pickling-example/
+
 Mastromatteo, D. (n.d.). The Python pickle Module: How to Persist Objects in Python. Retrieved from Real Python: https://realpython.com/python-pickle-module/
+
 Python.org. (2023). Built-in Exception. Retrieved from Python.org: https://docs.python.org/3/library/exceptions.html
+
 Python.org. (2023, May 30). pickle — Python object serialization. Retrieved from Python.org: https://docs.python.org/3/library/pickle.html
+
 W3Schools. (2023). Python Built-in Exceptions. Retrieved from W3Schools: https://www.w3schools.com/python/python_ref_exceptions.asp
 
 
