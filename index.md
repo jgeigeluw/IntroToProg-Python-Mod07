@@ -1,8 +1,10 @@
 Name: Joseph Géigel
+
 Date: May 31, 2023
+
 Course: Foundations of Programming: Python
+
 Assignment: 07
-GitHub URL:
 
 # Working with Binary Files in Python: Pickling
 
