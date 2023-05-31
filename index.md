@@ -118,29 +118,10 @@ Figure 6. Output in PyCharm.
  
 Figure 7. Output in Command Prompt.
 
-### Summary
+## Summary
 In this paper we explored the concepts of serialization and deserialization in Python by implementing the methods in the pickle module. Serialization refers to the concept of converting objects into byte streams that cannot be read by humans, but that can be understood by computers. Serialized data can be stored in binary files that are efficient and transmittable over a network, and many different kinds of complex data can be stored in a binary file. The pickle module uses the dump and load methods to pickle and unpickle the data. We also explored the concept of error handling by using try statements and except clauses, and the variety of built-in exceptions that exist in Python to handle different kinds of errors.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-References
+## References
 Arne Hjelle, G. ((n.d.)). Python import: Advanced Techniques and Tips. Retrieved from Real Python: https://realpython.com/python-import/#modules
 Dawson, M. (2010). Python Programming for the Absolute Beginner (Third Edition ed.). Boston, MA, United States of America: Course Technology PTR.
 GeeksForGeeks. (2018, November 13). Understanding Python Pickling. Retrieved from GeeksForGeeks: https://www.geeksforgeeks.org/understanding-python-pickling-example/
