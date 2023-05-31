@@ -73,7 +73,9 @@ Table 1. Some of the most common built-in exceptions in Python. Adapted from (W3
 
 ## Demonstration on Pickling and Binary Files
 This week’s script is relatively simple, and it aims to demonstrate how to pickle and unpickle files. To do this, we will use the To Do List that we populated with the script that we created last week. The To Do List is a text file that contains tasks and priorities that are populated by the user by using a script that takes the user’s input and appends it to the text file as a new line. The resulting To Do List from our most recent run of the To Do List script looks like this:
- 
+
+!(https://github.com/jgeigeluw/IntroToProg-Python-Mod07/blob/main/1.png)
+
 Figure 1. Simple text file showing the tasks and priorities in the to do list.
 
 This time, we will take this information and serialize and deserialize it using the methods in the pickle module.
