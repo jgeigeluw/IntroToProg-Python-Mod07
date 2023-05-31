@@ -45,7 +45,7 @@ In this example, the code in the try statement prompts the user to enter a numbe
 ### Built-in exceptions
 There are many built-in exceptions in Python, in the previous example we saw the ValueError exception, but many others can be raised under different circumstances. Table 1 provides a list of common Python built-in exceptions and their descriptions.
 
-	Exception		Description
+	** Exception **		** Description **
 	ArithmeticError 	Raised when an error occurs in numeric calculations
 	AttributeError 		Raised when attribute reference or assignment fails
 	Exception 		Base class for all exceptions
